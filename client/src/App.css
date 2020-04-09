@@ -1,12 +1,13 @@
-.App {
-    text-align: center;
+.app {
+    background-color: blanchedalmond;
   }
   
+
   .App-logo {
     height: 40vmin;
     pointer-events: none;
   }
-  
+ 
   @media (prefers-reduced-motion: no-preference) {
     .App-logo {
       animation: App-logo-spin infinite 20s linear;
@@ -37,12 +38,12 @@
     }
   }
   
-  .params{
+  .items{
     margin: 10px;
     min-width: 175px;
   }
   
-  .paramBlock{
+  .itemBlock{
     display:flex;
     justify-content:space-around;
     align-items: center;
@@ -59,7 +60,7 @@
     word-wrap: break-word;
   }
   
-  .paramBlock:hover, .longest:hover, .total:hover{
+  .itemBlock:hover, .longest:hover, .actTotal:hover{
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);;
   }
   
@@ -104,7 +105,7 @@
     background-color: none;
   }
   
-  .total,.longest{
+  .actTotal,.longest{
     background-color: darkorchid;
     padding: 10px 30px;
     margin: 15px;
@@ -112,4 +113,8 @@
     color:white;
   }
 
+  .flex { 
+    display: flex;
+    justify-content: space-around;
+    }
   
